@@ -1,4 +1,5 @@
 # Jasna-Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CosmicNexusV/Jasna-Colab/blob/main/Jasna-Colab.ipynb) <br>
 
 在 Google Colab 上一键部署并运行 [Jasna](https://github.com/Kruk2/jasna) 视频马赛克修复工具的 Jupyter Notebook。
 

@@ -55,7 +55,8 @@
 !./.venv/bin/python -m jasna \
   --input "/content/input_video.mp4" \
   --output "/content/output_video.mp4" \
-  --max-clip-size 120
+  --max-clip-size 180 \
+  --detection-model rfdetr-v4
 ```
 
 也可以指定 Drive 中的路径：
@@ -67,9 +68,10 @@ drive.mount('/content/drive')
 !./.venv/bin/python -m jasna \
     --input "/content/drive/MyDrive/input.mp4" \
     --output "/content/drive/MyDrive/output.MR.mp4" \
-    --max-clip-size 120 \
+    --max-clip-size 180 \
     --temporal-overlap 10 \
-    --encoder-settings "cq=28"
+    --encoder-settings "cq=28" \
+    --detection-model rfdetr-v4
 ```
 
 ### 批量处理（Google Drive）
